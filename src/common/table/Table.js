@@ -1,3 +1,4 @@
+import './Table.css';
 
 export const Table = ({ data, columns }) => {
 

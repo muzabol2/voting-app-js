@@ -1,19 +1,25 @@
-import { useState } from "react"
+import { useState } from "react";
+import './Modal.css';
 
 export const Modal = ({ children }) => {
    const [shouldShow, setShouldShow] = useState(false);
 
    return (
       <>
-         <button onClick={() => setShouldShow(true)}>+</button>
+         <button className="rounded-btn" onClick={() => setShouldShow(true)}>+</button>
          {shouldShow && (
             <div className="modal-background" onClick={() => setShouldShow(false)}>
                <div className="modal-body" onClick={e => e.stopPropagation()}>
                   {children}
-                  <button onClick={() => setShouldShow(false)}>Done</button>
+                  <div className="modal-footer">
+                     <button onClick={() => setShouldShow(false)}>
+                        Close
+                     </button>
+                  </div>
                </div>
             </div>
-         )}
+         )
+         }
       </>
    );
 }

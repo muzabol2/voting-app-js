@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useVote } from "../hooks/useVote";
-import Heading from "../common/Heading";
+import Heading from "../common/heading/Heading";
 
 export const SubmitVote = () => {
    const { voters, candidates, voteForCandidate } = useVote();
@@ -20,7 +20,7 @@ export const SubmitVote = () => {
    };
 
    return (
-      <div>
+      <div className="submit-vote">
          <Heading>Vote!</Heading>
          <form onSubmit={handleSubmit}>
             <select

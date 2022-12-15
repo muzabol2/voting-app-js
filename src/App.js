@@ -1,7 +1,7 @@
 import { ListOfPeople } from "./components/ListOfPeople";
 import { SubmitVote } from "./components/SubmitVote";
 import { useVote } from "./hooks/useVote";
-import Heading from "./common/Heading";
+import Heading from "./common/heading/Heading";
 import { candidatesColumn, voterColumns } from "./common/constants";
 import './App.css';
 
@@ -11,7 +11,7 @@ function App() {
    return (
       <div className='app'>
          <Heading>Voting app</Heading>
-         <button onClick={() => cleanLists()}>Clean the lists</button>
+         <button className="clean-btn" onClick={() => cleanLists()}>Clean the lists</button>
          <div className="tables">
             <ListOfPeople
                label="voter"

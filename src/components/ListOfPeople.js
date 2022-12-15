@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Modal } from "../common/Modal";
-import { Table } from "../common/Table";
+import { Modal } from "../common/modal/Modal";
+import { Table } from "../common/table/Table";
 
 
 export const ListOfPeople = ({ label, data, columns, addNewPerson }) => {

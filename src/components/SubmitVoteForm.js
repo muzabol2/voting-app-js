@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useVote } from "../hooks/useVote";
 import Heading from "../common/heading/Heading";
 
-export const SubmitVote = () => {
+export const SubmitVoteForm = () => {
    const { voters, candidates, voteForCandidate } = useVote();
    const [voterId, setVoterId] = useState("default");
    const [candidateId, setCandidateId] = useState("default");

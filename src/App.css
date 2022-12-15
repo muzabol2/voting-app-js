@@ -2,10 +2,18 @@
    padding: 10px 20px;
 }
 
-.tables {
+.lists-container {
    display: grid;
    grid-template-columns: 1fr 1fr;
    gap: 20px;
+}
+
+.top-thread {
+   display: flex;
+   justify-content: space-between;
+   border: 1px solid #ddd;
+   padding: 8px;
+   text-align: center;
 }
 
 .rounded-btn {

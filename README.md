@@ -3,8 +3,6 @@
 The project was created for recruitment purposes to a specific company. ;)
 
 ## Table of contents
-- [Voting app](#voting-app)
-  - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Deployment](#deployment)
   - [Screenshot](#screenshot)
@@ -25,7 +23,7 @@ YOU CAN PLAY AND TEST MY APP [>>HERE<<](https://muzabol2.github.io/voting-app-js
 
 ## Screenshot
 
-![screenshot]()
+![screenshot](https://user-images.githubusercontent.com/109333068/207890352-ed21d2d8-807d-4dd6-99ef-1da96f0c5052.png)
 
 ## Technologies
 

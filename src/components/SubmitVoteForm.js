@@ -15,6 +15,8 @@ export const SubmitVoteForm = () => {
          const changedCandidate = candidates.find(c => c.id === candidateId)
          changedCandidate.voteCounts += 1;
          voteForCandidate(changedVoter, changedCandidate);
+         setVoterId("default");
+         setCandidateId("default");
          e.target.reset();
       }
    };

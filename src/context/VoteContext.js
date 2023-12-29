@@ -28,12 +28,12 @@ export const voteReducer = (state = initialState, action) => {
       return {
         ...state,
         voter: [
-          ...state.voters.filter((c) => c.id != action.payload.voter.id),
+          ...state.voters.filter((c) => c.id !== action.payload.voter.id),
           action.payload.voter,
         ],
         candidate: [
           ...state.candidates.filter(
-            (c) => c.id != action.payload.candidate.id
+            (c) => c.id !== action.payload.candidate.id
           ),
           action.payload.candidate,
         ],

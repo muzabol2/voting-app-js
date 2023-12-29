@@ -1,4 +1,5 @@
 import { useContext } from "react";
+
 import { VoteContext } from "../context/VoteContext";
 
 export const useVote = () => {
@@ -9,4 +10,4 @@ export const useVote = () => {
   }
 
   return context;
-}
+};

@@ -1,44 +1,44 @@
 .app {
-   padding: 10px 20px;
+  padding: 10px 20px;
 }
 
 .lists-container {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .top-thread {
-   display: flex;
-   justify-content: space-between;
-   border: 1px solid #ddd;
-   padding: 8px;
-   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
 }
 
 .rounded-btn {
-   padding: 4px 8px;
-   border-radius: 50%;
-   font-weight: bold;
-   text-decoration: none;
-   color: #1f9751;
+  padding: 4px 8px;
+  border-radius: 50%;
+  font-weight: bold;
+  text-decoration: none;
+  color: #1f9751;
 }
 
 .clean-btn {
-   position: absolute;
-   top: 0;
-   right:0;
-   background: #ddd;
-   color: #777;
-   border: none;
-   padding: 12px 8px;
-   text-align: center;
-   line-height: 0;
-   font-size: 0.9em;
-   cursor: pointer;
- }
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #ddd;
+  color: #777;
+  border: none;
+  padding: 12px 8px;
+  text-align: center;
+  line-height: 0;
+  font-size: 0.9em;
+  cursor: pointer;
+}
 
- .submit-vote {
-   margin-top: 30px;
-   border-top: 2px solid #1f9751;
- }
+.submit-vote {
+  margin-top: 30px;
+  border-top: 2px solid #1f9751;
+}
